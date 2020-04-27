@@ -43,11 +43,18 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
-                    <div class="col-12 col-sm align-self-center">
+                </div>
+                <div class="row col-12 col-sm align-self-center">
+                    <div class="d-flex col-12 col-sm-6 align-self-center justify-content-center">
                         <img src="img/logo.png" class="img-fluid">
                     </div>
+                    <div class="d-flex col-12 col-sm align-self-center justify-content-center">
+                        <a href="#book_table"type="button" class="btn btn-warning reserve_btn" >Reserve Table</a>
+                    </div>
                 </div>
+
             </div>
+        </div>
         </div>
     </header>
 
@@ -60,7 +67,8 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                        <h2 class="mt-0">Uthappizza&nbsp;<span class="badge badge-danger">HOT</span><span
+                                class="badge badge-pill badge-secondary">$4.99</span></h2>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
                             Italian pizza, topped with Cerignola olives, ripe vine
                             cherry tomatoes, Vidalia onion, Guntur chillies and
@@ -76,19 +84,16 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                    <div class="media">
-                            <img class="d-flex mr-3 img-thumbnail align-self-center"
-                                    src="img/alberto.png" alt="Alberto Somayya">
-                            <div class="media-body">
-                                <h2 class="mt-0">Alberto Somayya</h2>
-                                <h4>Executive Chef</h4>
-                                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
-                                    International experience having worked closely with
-                                    whos-who in the culinary world, he specializes in
-                                    creating mouthwatering Indo-Italian fusion experiences.
-                                    </p>
-                            </div>
-                        </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend grand Buffet&nbsp;<span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with the choice of
+                            five different salads, six enticing appetizers, six main entrees and five choicest deserts.
+                            Free flowing bubbly and soft drinks. All for just $19.99 per person
+                        </p>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="Alberto Somayya">
+                </div>
             </div>
         </div>
 
@@ -97,12 +102,46 @@
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with
-                    whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion
-                    experiences. </p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png"
+                        alt="Alberto Somayya">
+                    <div class="media-body">
+                        <h2 class="mt-0">Alberto Somayya</h2>
+                        <h4>Executive Chef</h4>
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+                            International experience having worked closely with
+                            whos-who in the culinary world, he specializes in
+                            creating mouthwatering Indo-Italian fusion experiences.
+                        </p>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <div class="col-12 col-sm-8 offset-sm-2 book_table card" id="book_table">
+            <h3 class="card-header">Reserve a table</h3>
+            <form>
+                <div class="form-group row mt-3 col-12">
+                    <label for="firstname" class="col-md-2 col-form-label ml-3">No of Guests</label>
+                    <label class="radio-inline mr-3 ml-3"><input type="radio" name="optradio">&nbsp;1</label>
+                    <label class="radio-inline mr-3"><input type="radio" name="optradio">&nbsp;2</label>
+                    <label class="radio-inline mr-3"><input type="radio" name="optradio">&nbsp;3</label>
+                    <label class="radio-inline mr-3"><input type="radio" name="optradio">&nbsp;4</label>
+                    <label class="radio-inline mr-3"><input type="radio" name="optradio">&nbsp;5</label>
+                    <label class="radio-inline mr-3"><input type="radio" name="optradio">&nbsp;6</label>
+                </div>
+                <div class="form-group row mt-3 col-12">
+                        <label for="firstname" class="col-md-2 col-form-label ml-3 ">Date and Time</label>
+                        <input type="text" class="d-flex form-control col-md-3 col-12 ml-3" id="lastname" name="lastname" placeholder="Date">
+                        <input type="text" class="form-control col-md-3 col-12 ml-3" id="lastname" name="lastname" placeholder="Time">
+                </div>
+                <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary ml-3">Reserve</button>
+                        </div>
+                </div>
+            </form>
+
         </div>
     </div>
 

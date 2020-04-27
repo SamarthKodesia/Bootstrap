@@ -35,3 +35,17 @@
 .navbar-dark {
      background-color: #512DA8;
 }
+.reserve_btn{
+    padding:5px 40px;
+}
+.book_table{
+    border: #d7d7d7 1px solid;
+    padding: 0;
+    margin-bottom: 50px;
+}
+.book_table h3 {
+    background-color:rgb(245, 203, 97);
+    color:#fff;
+    padding: 10px 40px;
+    margin:0;
+}
